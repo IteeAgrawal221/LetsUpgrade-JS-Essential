@@ -1,0 +1,22 @@
+// Q1 program to search for particular character in string
+ let name = "itee";
+ console.log(name.indexOf('t'));
+
+ //Q2 Program to conver minutes to seconds
+ let min = 30;
+ let sec = min * 60;
+ console.log(min + " min into sec is " + sec);
+
+//  Q3 program to search for a element in array of strings
+let A = ["itee", " mohit", "mayank", "neeti"];
+console.log(A[3]);
+
+// Q4 Program to display only elements containing 'a' in the term of array
+let array = ["apple", "ant","elephant","left","eagle"];
+array.forEach(function(ele){
+    console.log(ele);
+});
+
+// Q5 Print an array in reverse order
+let a =[1,2,3,4,5,6,7,8,9,].reverse();
+console.log(a);
